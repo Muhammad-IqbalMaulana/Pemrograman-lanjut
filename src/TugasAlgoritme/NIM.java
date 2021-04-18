@@ -1,13 +1,13 @@
 package TugasAlgoritme;
 
+
 public class NIM {
     private String nim;
-    public String getNim() {
-        return nim;
-    }
+
     public void setNim(String nim){
         this.nim = nim;
     }
+
     public String getjenjang() {
         char kodeJenjang = nim.charAt(0);
         if (kodeJenjang == '1') {
@@ -21,16 +21,16 @@ public class NIM {
         }
     }
     public String getTahun(){
-            char kodeTahun = nim.charAt(2);
-            if (kodeTahun == '9'){
-                return "2019";
-            }else if (kodeTahun == '0'){
-                return "2020";
-            }else if (kodeTahun == '1'){
-                return "2021";
-            }else{
-                return "UNKNOWN";
-            }
+        String kodeTahun = nim.substring(1,3);
+        if  (kodeTahun.equals("19")) {
+            return "2019";
+        }else if (kodeTahun.equals("20")) {
+            return "2020";
+        }else if (kodeTahun.equals("21")) {
+            return "2021";
+        }else {
+            return "UNKNOWN";
+        }
     }
     public String getFakultas(){
         char kodeFakultas = nim.charAt(3);
@@ -53,16 +53,16 @@ public class NIM {
         }
     }
     public String getProdi(){
-        char kodeProdi = nim.charAt(5);
-        if (kodeProdi == '1'){
+        String kodeProdi = nim.substring(4,6);
+        if (kodeProdi.equals("01")){
             return "Teknik Informatika";
-        }else if (kodeProdi == '2'){
+        }else if (kodeProdi.equals("02")){
             return "Teknik Industri";
-        }else if (kodeProdi == '3'){
+        }else if (kodeProdi.equals("03")){
             return "Sistem Informasi";
-        }else if (kodeProdi == '4'){
+        }else if (kodeProdi.equals("04")){
             return "Matematika";
-        }else if (kodeProdi == '5'){
+        }else if (kodeProdi.equals("05")){
             return "Teknik Elektro";
         }else{
             return "UNKNOWN";
@@ -78,12 +78,9 @@ public class NIM {
             return "UNKNOWN";
         }
     }
-    public int getNomorUrut(){
-        char kodeNu = nim.charAt(7,8);
-        //char kodeNu1 = nim.charAt();
-        return kodeNu;
-       /* return kodeNu1;
-        return 9;
-        return 10;*/
+    public String getNomorUrut(){
+        String kodeNR = nim.substring(7,11);
+        return kodeNR;
+
     }
 }
