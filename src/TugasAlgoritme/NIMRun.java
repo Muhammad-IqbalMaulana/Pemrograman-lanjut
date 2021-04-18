@@ -1,4 +1,4 @@
-package Algoritme;
+package TugasAlgoritme;
 
 public class NIMRun {
     public static void main(String[] args) {

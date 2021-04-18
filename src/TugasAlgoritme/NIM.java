@@ -1,4 +1,4 @@
-package Algoritme;
+package TugasAlgoritme;
 
 public class NIM {
     private String nim;
