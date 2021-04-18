@@ -44,9 +44,11 @@ public class NIM {
             return "Dakwah dan Komunikasi";
         }else if (kodeFakultas == '5'){
             return "Sains dan Teknologi";
-        }else if (kodeFakultas == '6'){
+        }else if (kodeFakultas == '6') {
             return "Psikologi";
         }else if (kodeFakultas == '7'){
+            return "Ekonomi dan Ilmu Sosial";
+        }else if (kodeFakultas == '8'){
             return "Pertanian dan Peternakan";
         }else{
             return "UNKNOWN";
