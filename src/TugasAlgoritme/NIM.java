@@ -79,8 +79,6 @@ public class NIM {
         }
     }
     public String getNomorUrut(){
-        String kodeNR = nim.substring(7,11);
-        return kodeNR;
-
+        return nim.substring(7,11);
     }
 }
