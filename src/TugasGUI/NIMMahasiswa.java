@@ -19,6 +19,10 @@ public class NIMMahasiswa {
         this.nim = nim;
     }
 
+    public String getNim() {
+        return nim;
+    }
+
     public String getjenjang() {
         char kodeJenjang = nim.charAt(0);
         if (kodeJenjang == '1') {

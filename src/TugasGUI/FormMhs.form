@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TugasGUI.FormMhs">
-  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="13" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
@@ -18,7 +18,7 @@
       </component>
       <vspacer id="d9573">
         <constraints>
-          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <component id="231b1" class="javax.swing.JLabel">
@@ -79,7 +79,7 @@
       </component>
       <component id="d6e18" class="javax.swing.JLabel" binding="labelF">
         <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value=""/>
@@ -87,7 +87,7 @@
       </component>
       <component id="6ca5f" class="javax.swing.JLabel" binding="label2">
         <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value=""/>
@@ -95,7 +95,7 @@
       </component>
       <component id="a0986" class="javax.swing.JLabel" binding="label3">
         <constraints>
-          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value=""/>
@@ -103,7 +103,7 @@
       </component>
       <component id="1a64d" class="javax.swing.JLabel" binding="label4">
         <constraints>
-          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value=""/>
@@ -111,7 +111,7 @@
       </component>
       <component id="4a9a7" class="javax.swing.JLabel" binding="label5">
         <constraints>
-          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value=""/>
@@ -119,7 +119,15 @@
       </component>
       <component id="afa65" class="javax.swing.JLabel" binding="label6">
         <constraints>
-          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1418" class="javax.swing.JLabel" binding="label0">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value=""/>

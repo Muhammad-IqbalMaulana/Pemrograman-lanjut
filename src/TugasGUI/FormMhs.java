@@ -16,6 +16,7 @@ public class FormMhs {
     private JLabel label4;
     private JLabel label5;
     private JLabel label6;
+    private JLabel label0;
 
     public FormMhs() {
         button1.addActionListener(new ActionListener() {
@@ -31,6 +32,7 @@ public class FormMhs {
                 noNim.setNim(nim);
                 //tampilkan output ke form
                 HasilLabel.setText("Nama = " +noNim.getNma());
+                label0.setText("NIM = " +noNim.getNim());
                 labelF.setText("Jenjang pendidikan = " +noNim.getjenjang());
                 label2.setText("Tahun masuk = " +noNim.getTahun());
                 label3.setText("Fakultas = " +noNim.getFakultas());
